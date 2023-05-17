@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(11, 73, 5);
+    font-family: "Papyrus", Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+a {
+    color: #c48104;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    align-items: center;
+}
+
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
