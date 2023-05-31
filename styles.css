@@ -1,8 +1,10 @@
 body {
-    background-color: rgb(11, 73, 5);
+    background-color: rgb(186, 250, 255);
     font-family: "Papyrus", Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    color: rgb(55, 33, 255);
     text-align: center;
+    display: grid;
+    place-items: center;
 }
 
 h1 {
@@ -13,17 +15,29 @@ h3 {
     font-size: 30px;
 }
 
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe {
+    flex: 0 1 150px;
+}
+
+
 a {
-    color: #c48104;
+    color: #1148ff;
     text-decoration: none;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 30px;
 }
 
 img {
-    width: 400px;
-    height: auto;
-    align-items: center;
+    width: 350px;
+    height: 350px;
+    /*align-items: center;*/
+    margin: 10px;
 }
 
 
